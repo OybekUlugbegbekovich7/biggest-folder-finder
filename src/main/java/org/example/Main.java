@@ -4,7 +4,7 @@ import java.io.File;
 
 public class Main {
     public static void main(String[] args) {
-       String folderPath = "C:/Users/oybek.nurmatov/Downloads";
+       String folderPath = "absolut path";
        File file = new File(folderPath);
         System.out.println(getFolderSize(file));
     }
